@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_albums"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicstructure.Albums">
+
+
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/centerLine"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <ImageView
+        style="@style/AlbumStyle"
+        android:id="@+id/albumA"
+        android:src="@drawable/albuma"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="@id/centerLine" />
+
+    <TextView
+        android:id="@+id/albumAText"
+        android:layout_width="@dimen/any_size"
+        android:layout_height="wrap_content"
+        android:text="@string/albumA"
+        android:gravity="center"
+        app:layout_constraintRight_toRightOf="@id/centerLine"
+        app:layout_constraintTop_toBottomOf="@+id/albumA"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+
+    <ImageView
+        style="@style/AlbumStyle"
+        android:src="@drawable/albumb"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/centerLine"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
