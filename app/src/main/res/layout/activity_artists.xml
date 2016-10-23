@@ -2,11 +2,10 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_albums"
+    android:id="@+id/activity_artists"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.musicstructure.Albums">
-
+    tools:context="com.example.android.musicstructure.Artists">
 
 
     <android.support.constraint.Guideline
@@ -19,52 +18,51 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <ImageView
-        android:id="@+id/albumA"
+        android:id="@+id/artistA"
         style="@style/AlbumStyle"
         android:scaleType="centerCrop"
-        android:src="@drawable/album_a"
+        android:src="@drawable/artist_a"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="@id/centerLine"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/albumAText"
+        android:id="@+id/artistAText"
         android:layout_width="@dimen/any_size"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/albumA"
+        android:text="@string/artistA"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="@id/centerLine"
-        app:layout_constraintTop_toBottomOf="@+id/albumA" />
-
+        app:layout_constraintTop_toBottomOf="@+id/artistA" />
 
 
     <ImageView
-        android:id="@+id/albumB"
+        android:id="@+id/artistB"
         style="@style/AlbumStyle"
-        android:src="@drawable/album_b"
+        android:src="@drawable/artist_b"
         app:layout_constraintLeft_toLeftOf="@id/centerLine"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
     <TextView
-        android:id="@+id/albumBText"
+        android:id="@+id/artistBText"
         android:layout_width="@dimen/any_size"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/albumB"
         app:layout_constraintLeft_toLeftOf="@id/centerLine"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/albumB" />
+        app:layout_constraintTop_toBottomOf="@+id/artistB" />
 
     <ImageView
-        android:id="@+id/albumC"
+        android:id="@+id/artistC"
         style="@style/AlbumStyle"
-        android:src="@drawable/album_c"
+        android:src="@drawable/artist_c"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="@id/centerLine"
-        app:layout_constraintTop_toBottomOf="@+id/albumAText" />
+        app:layout_constraintTop_toBottomOf="@+id/artistAText" />
 
     <TextView
         android:id="@+id/albumCText"
@@ -74,18 +72,18 @@
         android:text="@string/albumC"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="@id/centerLine"
-        app:layout_constraintTop_toBottomOf="@+id/albumC" />
+        app:layout_constraintTop_toBottomOf="@+id/artistC" />
 
     <TextView
+        android:id="@+id/artistPageText"
         style="@style/TextViewStyle"
         android:layout_width="@dimen/any_size"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="@string/albumPage"
+        android:text="@string/artistPage"
         android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
-
 
 </android.support.constraint.ConstraintLayout>

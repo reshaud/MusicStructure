@@ -1,8 +1,8 @@
 package com.example.android.musicstructure;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -19,6 +19,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(),Albums.class);
+                startActivity(i);
+            }
+        });
+
+
+        //Go to Artist activity
+        TextView artist = (TextView) findViewById(R.id.artists);
+        artist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(), Artists.class);
                 startActivity(i);
             }
         });

@@ -8,51 +8,39 @@
     tools:context="com.example.android.musicstructure.MainActivity">
 
     <TextView
-        android:onClick=""
         android:id="@+id/albums"
         style="@style/TextViewStyle"
-        android:text="@string/albums"
-        android:gravity="center"
-        android:paddingTop="25dp"
-        android:paddingBottom="25dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         android:background="@android:color/holo_blue_dark"
-        android:textColor="@android:color/white"/>
+        android:text="@string/albums"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/artists"
         style="@style/TextViewStyle"
-        android:text="@string/artists"
-        android:gravity="center"
-        android:paddingTop="25dp"
-        android:paddingBottom="25dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/albums"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:background="@android:color/holo_orange_dark"
-        android:textColor="@android:color/white"/>
+        android:text="@string/artists"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/albums" />
 
     <TextView
         android:id="@+id/songs"
         style="@style/TextViewStyle"
-        android:text="@string/songs"
-        android:gravity="center"
-        android:paddingTop="25dp"
-        android:paddingBottom="25dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/artists"
-        app:layout_constraintRight_toRightOf="parent"
         android:background="#D32F2F"
-        android:textColor="@android:color/white"/>
+        android:text="@string/songs"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/artists" />
 
     <TextView
         android:id="@+id/home_text"
         style="@style/TextViewStyle"
-        android:text="@string/home"
         android:layout_margin="16dp"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/home"
+        android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 </android.support.constraint.ConstraintLayout>
