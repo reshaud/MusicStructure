@@ -29,9 +29,8 @@
 
     <TextView
         android:id="@+id/albumAText"
-        android:layout_width="@dimen/any_size"
-        android:layout_height="wrap_content"
-        android:gravity="center"
+        style="@style/AlbumTextStyle"
+        android:background="@android:color/holo_blue_dark"
         android:text="@string/albumA"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="@id/centerLine"
@@ -50,9 +49,8 @@
 
     <TextView
         android:id="@+id/albumBText"
-        android:layout_width="@dimen/any_size"
-        android:layout_height="wrap_content"
-        android:gravity="center"
+        style="@style/AlbumTextStyle"
+        android:background="@android:color/holo_orange_dark"
         android:text="@string/albumB"
         app:layout_constraintLeft_toLeftOf="@id/centerLine"
         app:layout_constraintRight_toRightOf="parent"
@@ -68,9 +66,8 @@
 
     <TextView
         android:id="@+id/albumCText"
-        android:layout_width="@dimen/any_size"
-        android:layout_height="wrap_content"
-        android:gravity="center"
+        style="@style/AlbumTextStyle"
+        android:background="#D32F2F"
         android:text="@string/albumC"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="@id/centerLine"

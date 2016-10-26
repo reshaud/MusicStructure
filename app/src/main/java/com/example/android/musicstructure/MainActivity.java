@@ -33,5 +33,25 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        //Go to Song activity
+        TextView songs = (TextView) findViewById(R.id.songs);
+        songs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(), Songs.class);
+                startActivity(i);
+            }
+        });
+
+        //Go to Now Playing activity
+        TextView nowPlaying = (TextView) findViewById(R.id.now_playing);
+        nowPlaying.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(), NowPlaying.class);
+                startActivity(i);
+            }
+        });
     }
 }

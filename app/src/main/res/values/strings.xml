@@ -1,17 +1,19 @@
 <resources>
     <string name="app_name">Music Structure</string>
     <string name="songs">Songs</string>
+    <string name="now_playing">Now Playing</string>
     <string name="albums">Albums</string>
     <string name="artists">Artists</string>
     <string name="home">This is the home page and will act as a hub for the user to navigate throughout the app</string>
     <string name="albumA">Album A</string>
     <string name="albumB">Album B</string>
     <string name="albumC">Album C</string>
-    <string name="albumPage">This is the album page, this page will display all albums on a users phone upon clicking an album cover the user will be taken to a activity showing the songs in that album</string>
+    <string name="albumPage">This is the album page, this page should display all albums on a users phone upon clicking an album cover the user will be taken to a activity showing the songs in that album</string>
     <string name="artistA">Artist A</string>
     <string name="artistB">Artist B</string>
     <string name="artistC">Artist C</string>
-    <string name="artistPage">This is the artist page, this page will display all artists on a users phone, upon clicking an artist will be taken to a page showing the songs for that artist</string>
-    <string name="song">Songs</string>
-    <string name="songPage">This is the song page, this page will display all songs on a users phone,upon clicking a song it should take you to the now playing page</string>
+    <string name="artistPage">This is the artist page, this page should display all artists on a users phone, upon clicking an artist will be taken to a page showing the songs for that artist</string>
+    <string name="song">Song</string>
+    <string name="songPage">This is the song page, this page should display all songs on a users phone,upon clicking a song it should take you to the now playing page</string>
+    <string name="nowPlayingPage">This is the now playing page, this page should play the song selected by the user</string>
 </resources>

@@ -11,7 +11,7 @@
     <style name="TextViewStyle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">@dimen/any_size</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:paddingTop">@dimen/paddingTextView</item>
         <item name="android:paddingBottom">@dimen/paddingTextView</item>
         <item name="android:gravity">center</item>
@@ -27,6 +27,44 @@
         <item name="android:layout_marginLeft">@dimen/general_margin</item>
         <item name="android:layout_marginStart">@dimen/general_margin</item>
         <item name="android:layout_marginTop">@dimen/general_margin</item>
+    </style>
+
+    <style name="ArtistTextStyle">
+        <item name="android:layout_marginLeft">@dimen/general_margin</item>
+        <item name="android:layout_marginStart">@dimen/general_margin</item>
+        <item name="android:layout_marginRight">@dimen/general_margin</item>
+        <item name="android:layout_marginEnd">@dimen/general_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">@dimen/any_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/artist_text_size</item>
+    </style>
+
+    <style name="AlbumTextStyle">
+        <item name="android:layout_marginLeft">@dimen/general_margin</item>
+        <item name="android:layout_marginStart">@dimen/general_margin</item>
+        <item name="android:layout_marginRight">@dimen/general_margin</item>
+        <item name="android:layout_marginEnd">@dimen/general_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">@dimen/any_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/artist_text_size</item>
+    </style>
+
+    <style name="SongTextStyle">
+        <item name="android:layout_marginLeft">@dimen/general_margin</item>
+        <item name="android:layout_marginStart">@dimen/general_margin</item>
+        <item name="android:layout_marginRight">@dimen/general_margin</item>
+        <item name="android:layout_marginEnd">@dimen/general_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">@dimen/any_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:padding">16dp</item>
     </style>
 
 </resources>
