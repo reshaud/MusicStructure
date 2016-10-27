@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.android.musicstructure.MainActivity">
+
+    <TextView android:id="@+id/albums" style="@style/TextViewStyle"
+        android:background="@android:color/holo_blue_dark" android:gravity="center"
+        android:paddingBottom="25dp" android:paddingTop="25dp" android:text="@string/albums"
+        android:textColor="@android:color/white" app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView android:id="@+id/artistes" style="@style/TextViewStyle"
+        android:background="@android:color/holo_orange_dark" android:gravity="center"
+        android:paddingBottom="25dp" android:paddingTop="25dp" android:text="@string/artistes"
+        android:textColor="@android:color/white" app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/albums" />
+
+    <TextView android:id="@+id/songs" style="@style/TextViewStyle" android:background="#D32F2F"
+        android:gravity="center" android:paddingBottom="25dp" android:paddingTop="25dp"
+        android:text="@string/songs" android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/artistes" />
+
+    <TextView android:id="@+id/home_text" style="@style/TextViewStyle" android:layout_margin="16dp"
+        android:text="@string/home" app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>
